@@ -1,0 +1,135 @@
+.page-title-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #1d1a2e;
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 20px; */
+    text-transform: uppercase; /* Optional for style */
+}
+
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-title {
+        font-size: 1.5rem;
+    }
+}
+
+
+.featured-artists {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+.artist-section {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.artist-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.artist-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.artist-info {
+    display: flex;
+    flex-direction: column; /* Change to column direction */
+    align-items: flex-start; /* Align items to the start (left) */
+}
+
+.artist-name {
+    font-size: 2rem;
+    font-family: 'Jua', sans-serif;
+    margin: 0;
+}
+
+.see-works {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    padding-left: 2px;
+    color: #806EDB;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.see-works:hover {
+    color: #FFD100;
+}
+
+
+.featured-works {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.featured-item, 
+.gallery-item {
+    flex: 1 1 calc(20% - 1rem); /* Set items to 20% width with spacing adjustment */
+    max-width: calc(20% - 1rem);
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 1 / 1; /* square container */
+}
+
+.featured-item img,
+.gallery-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* content fills square w/o distortion */
+    display: block;
+}
+
+.gallery-item video {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.featured-item:hover, 
+.gallery-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .featured-item, 
+    .gallery-item {
+        flex: 1 1 calc(50% - 1rem); /* Two items per row on medium screens */
+        max-width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .featured-item, 
+    .gallery-item {
+        flex: 1 1 100%; /* Single item per row on small screens */
+        max-width: 100%;
+    }
+}
