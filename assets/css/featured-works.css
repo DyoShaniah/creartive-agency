@@ -4,10 +4,10 @@
 }
 
 .page-title {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: bold;
-    font-family: 'Inter', sans-serif;
-    color: #1d1a2e;
+    font-family: 'Luckiest Guy', cursive;
+    color: #FED966;
     margin: 0;
     padding: 0;
     /* padding-bottom: 20px; */
@@ -62,12 +62,13 @@
 
 .artist-name {
     font-size: 2rem;
-    font-family: 'Jua', sans-serif;
+    font-family: 'Cherry Bomb One', cursive;
     margin: 0;
+    color: white;
 }
 
 .see-works {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Chewy', cursive;
     font-size: 1rem;
     padding-left: 2px;
     color: #806EDB;
@@ -95,7 +96,7 @@
     position: relative;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
     aspect-ratio: 1 / 1; /* square container */
 }
 
