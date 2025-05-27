@@ -15,7 +15,7 @@
     width: auto;
     height: auto;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .main-one h1 {
@@ -33,34 +33,151 @@
     color: #294553;
 }
 
-.arrow-button {
+/* Make the down button smaller */
+.down-btn img {
+    width: 40px;   /* Adjust to your preferred size */
+    height: 40px;  /* Maintain aspect ratio */
+    margin-top: 50px;
+    transition: transform 0.3s ease; /* Optional: Adds hover effect */
+}
+
+/* Optional: Add hover animation */
+.down-btn:hover img {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.about-title{
+    text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    color: #FED966;
-    background-color: transparent;
-    border: 1px solid #FED966;
-    border-radius: 10px;
-    padding: 12px 15px;
+    font-size: 48px;
+    color: #F5A302;
+    margin-bottom: 2rem;
+}
+
+.wrapper-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.profile-card{
+    width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    background-color: #FED966;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px #2c2c2c;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+.profile-card::before{
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    top: 0;
+    height: 6rem;
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}  
+
+.image-container{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3B4046;
+    padding: 3px;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.profile-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 3px #ffffff;
+}
+                                                                                                                                                                                                                         
+.name{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 12px;
+    color: #1d1a2e;
+}
+
+.text-container span{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d1a2e;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.works{
+    font-family: 'Inter', sans-serif;
+    background-color: #2A2F35;
+    color: #1d1a2e;
+    padding: 8px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 25px 0px 0px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 20px;
-  }
+}
 
-  .arrow-button:hover {
-    background-color: #BF9100;
-    color: #ffffff;
-    transform: translateY(-3px);
-    box-shadow: 0px 6px 12px rgba(128, 110, 219, 0.3);
-  }
+.works a{
+    text-decoration: none;
+    color: #FED154;
+}
 
-  /*for tablet & laptop??? screens*/
-  @media screen and (min-width:500px){
-    .wrapper-grid{
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-        padding: 0rem 5rem;
-        height: 30rem;
-    }
-  }
+.works:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.skills{
+    font-family: 'Inter', sans-serif;
+    border-top: 2px solid #2A2F35;
+    padding: 16px 16px 26px 16px;
+    color: #1d1a2e;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills h4 {
+    padding-bottom: 8px;
+}
+
+.skills li {
+    font-size: 12px;
+    font-weight:bolder;
+    list-style: none;
+    display: inline-block;
+    background-color:#F5A302;
+    color:#2A2F35;
+    padding: 1px 6px;
+    margin: 2px;
+    border-radius: 5px;
+}
