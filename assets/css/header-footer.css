@@ -170,11 +170,13 @@ input::placeholder {
   text-decoration: none;
   color:  #FFD100;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
 }
 
 .footer-nav ul li a:hover {
   color: #ffffff;
+  border-bottom: 3px solid #FFD100;
 }
 
 .footer-main-logo {
