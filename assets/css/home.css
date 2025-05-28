@@ -22,16 +22,19 @@ home {
 
 .main-logo {
     max-width: 100%;
-    max-height: 320px;
+    max-height: 280px;
     width: auto;
     height: auto;
     align-items: center;
+    /* margin-bottom: 5px; */
 }
 
 .main-one h1 {
-    font-family: 'Jua', sans-serif; 
-    font-size: 50px ;
-    margin-top: 1.5rem;
+    font-family: 'Cherry Bomb One', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 40px ;
+    margin-bottom: 12px;
     color: #FED154;
     text-shadow: #ffffff;
 }
@@ -40,7 +43,7 @@ home {
     max-width: 1000px;
     background-color: #000000;
     border-radius: 24px;
-    font-family: 'Jua', sans-serif;
+    font-family: 'Chewy', sans-serif;
     font-size: 20px;
     line-height: 1.8;
     margin-top: 1.5rem;
@@ -51,7 +54,7 @@ home {
 .down-btn img {
     width: 40px;   /* Adjust to your preferred size */
     height: 40px;  /* Maintain aspect ratio */
-    margin-top: 50px;
+    margin-top: 30px;
     transition: transform 0.3s ease; /* Optional: Adds hover effect */
 }
 
@@ -62,10 +65,11 @@ home {
 
 .about-title{
     text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 7rem;
+    font-family: 'Luckiest Guy', sans-serif;
+    letter-spacing: 2px;
+    font-size: 55px;
     color: #F5A302;
-    margin: 5rem 0;
+    margin-bottom: 3rem;
 }
 
 .wrapper-flex{
@@ -131,7 +135,8 @@ home {
                                                                                                                                                                                                                          
 .name{
     font-size: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Cherry Bomb One', sans-serif;
+    letter-spacing: 1px;
     margin-bottom: 12px;
     color: #1d1a2e;
 }

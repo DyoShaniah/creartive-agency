@@ -5,8 +5,9 @@
 
 .page-title {
     font-size: 4rem;
-    font-weight: bold;
-    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    font-family: 'Cherry Bomb One', sans-serif;
+    letter-spacing: 3px;
     color: #FED966;
     margin: 0;
     padding: 0;
@@ -34,8 +35,8 @@
 }
 
 .artist-section {
-    margin-bottom: 2rem;
-    border-bottom: 2px solid #ccc;
+    margin-bottom: 3rem;
+    /* border-bottom: 2px solid #ccc; */
     padding-bottom: 1rem;
 }
 
@@ -62,7 +63,9 @@
 
 .artist-name {
     font-size: 2rem;
-    font-family: 'Cherry Bomb One', cursive;
+    font-weight: 400;
+    font-family: 'Cherry Bomb One', sans-serif;
+    letter-spacing: 2px;
     margin: 0;
     color: white;
 }
@@ -71,7 +74,7 @@
     font-family: 'Chewy', cursive;
     font-size: 1rem;
     padding-left: 2px;
-    color: #806EDB;
+    color: #F5A302;
     cursor: pointer;
     text-decoration: none;
     transition: color 0.3s ease;
