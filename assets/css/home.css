@@ -22,7 +22,8 @@
     font-family: 'Jua', sans-serif; 
     font-size: 50px ;
     margin-bottom: 12px;
-    color: #FED154;;
+    color: #FED154;
+    text-shadow: #ffffff;
 }
 
 .main-one p {
