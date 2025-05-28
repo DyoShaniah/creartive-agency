@@ -25,12 +25,21 @@ html {
 .header {
   top: 0;
   left: 0;
-  padding: 30px 10%;
+  padding: 4rem 15%;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  z-index: 1000;
+}
+
+menu-icon{
+  font-size: 3.5 rem;
+  color: #FFD100;
+  display: none;
 }
 
 .logo {
@@ -45,6 +54,11 @@ html {
   width: auto;
   height: auto;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.header-main-logo:hover {
+  transform: scale(1.2);
 }
 
 .header-nav ul {
@@ -59,14 +73,17 @@ html {
 
 .header-nav ul li a {
   font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
   text-decoration: none;
-  color: #BF9100;
+  color: #FFD100;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
 }
 
 .header-nav ul li a:hover {
-  color: #FFD100;
+  color: #ffffff;
+  border-bottom: 3px solid #FED966;
 }
 
 input[type="text"] {
@@ -80,7 +97,6 @@ input[type="text"] {
 input::placeholder {
   color: #806EDB;
 }
-
 
 .search {
   display: flex;
@@ -112,7 +128,8 @@ input::placeholder {
   justify-content: center;
   padding: 85px 200px;
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 .social-media {
@@ -150,13 +167,13 @@ input::placeholder {
 .footer-nav ul li a {
   font-family: 'Inter', sans-serif;
   text-decoration: none;
-  color:  #BF9100;
+  color:  #FFD100;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 .footer-nav ul li a:hover {
-  color: #FFD100;
+  color: #ffffff;
 }
 
 .footer-main-logo {
