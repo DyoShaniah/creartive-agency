@@ -128,6 +128,12 @@ input::placeholder {
   height: auto;
   width: auto;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 20px 40px rgba(255, 245, 101, 0.875)
 }
 
 .footer-nav ul {
