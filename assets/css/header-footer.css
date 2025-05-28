@@ -18,7 +18,8 @@ html {
 }
 
 @font-face {
-  font-family: 'Chewy' cursive;
+  font-family: 'Chewy';
+  font-family: 'Chewy';
   src: url('./assets/typeface/Chewy-Regular.ttf') format('truetype');
 }
 
