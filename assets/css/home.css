@@ -21,16 +21,18 @@
 .main-one h1 {
     font-family: 'Jua', sans-serif; 
     font-size: 50px ;
-    margin-bottom: 0;
-    color: #294553;
+    margin-bottom: 12px;
+    color: #FED154;;
 }
 
 .main-one p {
     max-width: 1000px;
+    background-color: #000000;
+    border-radius: 24px;
     font-family: 'Jua', sans-serif;
     font-size: 20px;
     margin: 5px 100px;
-    color: #294553;
+    color: #ffffff;
 }
 
 /* Make the down button smaller */
