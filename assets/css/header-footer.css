@@ -86,38 +86,6 @@ menu-icon{
   border-bottom: 3px solid #FED966;
 }
 
-input[type="text"] {
-  padding: 5px 10px;
-  font-size: 14px;
-  border: 1px solid #806EDB;
-  border-radius: 20px;
-  margin-right: 10px;
-}
-
-input::placeholder {
-  color: #806EDB;
-}
-
-.search {
-  display: flex;
-  align-items: center;
-  margin-right: 100px;
-}
-
-.search input {
-  padding: 5px 10px;
-  font-size: 14px;
-  border: 1px solid #806EDB;
-  border-radius: 20px;
-  margin-right: 5px;
-}
-
-.search .search-icon {
-  max-width: 25px;
-  max-height: 25px;
-  cursor: pointer;
-}
-
 /*footer*/
 .footer {
   height: 250px;
