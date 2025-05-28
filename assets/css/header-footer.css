@@ -18,7 +18,8 @@ html {
 }
 
 @font-face {
-  font-family: 'Chewy' cursive;
+  font-family: 'Chewy';
+  font-family: 'Chewy';
   src: url('./assets/typeface/Chewy-Regular.ttf') format('truetype');
 }
 
@@ -112,7 +113,7 @@ input::placeholder {
   justify-content: center;
   padding: 85px 200px;
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #3B4046;
 }
 
 .social-media {
